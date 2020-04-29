@@ -1,0 +1,18 @@
+{
+   "libs" : "-lxml2 ",
+   "cflags" : " ",
+   "cflags_static" : " ",
+   "legacy" : {
+      "version" : "2.9.9",
+      "name" : "libxml-2.0",
+      "original_prefix" : "C:/strawberry/perl/vendor/lib/auto/share/dist/Alien-Libxml2",
+      "finished_installing" : 1,
+      "install_type" : "system"
+   },
+   "alien_build_version" : "1.74",
+   "prefix" : "C:/strawberry/perl/vendor/lib/auto/share/dist/Alien-Libxml2",
+   "version" : "2.9.9",
+   "perl_module_version" : "0.09",
+   "install_type" : "system",
+   "libs_static" : "-lxml2 -lz -llzma -lws2_32 "
+}

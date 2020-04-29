@@ -1,0 +1,2 @@
+name=UST_TO_NEUTRINO
+execute=neutrino_utau_plugin.exe

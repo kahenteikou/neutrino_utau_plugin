@@ -1,0 +1,15 @@
+﻿<Window x:Class="neutrino_utau_plugin.ProjectNameInput"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:neutrino_utau_plugin"
+             mc:Ignorable="d" 
+             Height="163.967" Width="546.761">
+    <Grid>
+        <Label Content="ファイル名を入力してください。" HorizontalAlignment="Left" Margin="7,16,0,0" VerticalAlignment="Top" Height="39" Width="398" FontSize="22"/>
+        <TextBox x:Name="FilenameBox" HorizontalAlignment="Left" Height="28" Margin="18,69,0,0" TextWrapping="Wrap" Text="test" VerticalAlignment="Top" Width="385" FontSize="16"/>
+        <Button x:Name="OKButon" Content="OK" HorizontalAlignment="Left" Margin="448,99,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="OKButon_Click"/>
+
+    </Grid>
+</Window>

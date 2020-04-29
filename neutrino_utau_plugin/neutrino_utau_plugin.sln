@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30021.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neutrino_utau_plugin", "neutrino_utau_plugin.csproj", "{8FA2A423-9818-46C8-9AAB-ECE0AF4D490A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16208438-E098-46C3-9238-89827BB78278} = {16208438-E098-46C3-9238-89827BB78278}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neutrino_wrapper", "..\neutrino_wrapper\neutrino_wrapper.csproj", "{16208438-E098-46C3-9238-89827BB78278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wrappe_connect", "..\wrappe_connect\wrappe_connect.csproj", "{0EBCF76E-1CC7-4321-9251-BB81782148AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{8FA2A423-9818-46C8-9AAB-ECE0AF4D490A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA2A423-9818-46C8-9AAB-ECE0AF4D490A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA2A423-9818-46C8-9AAB-ECE0AF4D490A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16208438-E098-46C3-9238-89827BB78278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16208438-E098-46C3-9238-89827BB78278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16208438-E098-46C3-9238-89827BB78278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16208438-E098-46C3-9238-89827BB78278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBCF76E-1CC7-4321-9251-BB81782148AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBCF76E-1CC7-4321-9251-BB81782148AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBCF76E-1CC7-4321-9251-BB81782148AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBCF76E-1CC7-4321-9251-BB81782148AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
